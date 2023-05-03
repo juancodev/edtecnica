@@ -24,12 +24,17 @@ const Hero = () => {
                   </p>
                   <div className="button">
                     <ButtonPrimary
-                      title={`I'm Student`}
+                      title={`Soy Estudiante`}
                       link="https://edtecnica.info/"
                       backgroundColor="bg-slate-800"
                       style={"text-white py-2 px-4 rounded-full mr-4"}
                     />
-                    <ButtonPrimary title="Start Now" link="#" />
+                    <ButtonPrimary
+                      title="¡Comienza ahora!"
+                      link="#"
+                      backgroundColor="bg-blue-400"
+                      style={"text-white py-2 px-4 rounded-full mr-4"}
+                    />
                   </div>
                 </div>
                 <div className="image">

@@ -14,7 +14,7 @@ const Header = () => {
           </div>
           <div className="button">
             <ButtonPrimary
-              title={`I'm Student`}
+              title={`Soy Estudiante`}
               link="https://edtecnica.info/"
               backgroundColor="bg-slate-800"
               style={"text-white py-2 px-4 rounded-full mr-4"}
