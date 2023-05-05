@@ -5,8 +5,8 @@ import logo from "../../assets/Logo EDTecnica.svg";
 const Header = () => {
   return (
     <>
-      <header className="header-container w-full max-w-6xl mx-14 my-6 absolute z-10">
-        <div className="flex items-center justify-between">
+      <header className="header-container w-full max-w-6xl mx-14 my-6 absolute z-30">
+        <div className="flex items-center justify-between px-6">
           <div className="logo">
             <a href="#">
               <img src={logo} alt="" width={50} height={50} />

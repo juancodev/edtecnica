@@ -8,7 +8,7 @@ const TypesOfStudies = () => {
         <div className="typeofstudies-container">
           <div className="items-container mx-14 py-4">
             <div className="pt-28 pb-20">
-              <div className="items-grid grid grid-cols-3 gap-0">
+              <div className="items-grid grid grid-cols-3 gap-0 divide-x divide-slate-300">
                 <div className="item px-9">
                   <div className="image mb-3">
                     <img src={logo} alt="" width={50} height={50} />
