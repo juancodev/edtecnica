@@ -5,7 +5,7 @@ type Layout = {
 };
 
 const Layout = ({ children }: Layout) => {
-  return <div className="container overflow-hidden">{children}</div>;
+  return <div className="container max-w-full overflow-hidden">{children}</div>;
 };
 
 export { Layout };
