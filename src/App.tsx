@@ -6,6 +6,7 @@ import { TypesOfStudies } from "./components/types-of-studies/TypesOfStudies";
 import { ProfileSection } from "./components/profile/ProfileSection";
 import { Layout } from "./layout/Layout";
 import { Footer } from "./components/footer/Footer";
+import { GetStartSection } from "./components/get-start/GetStartSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <TypesOfStudies />
         <Modality />
         <ProfileSection />
+        <GetStartSection />
         <Footer />
       </Layout>
     </>

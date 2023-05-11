@@ -15,8 +15,8 @@ const Footer = () => {
               height={400}
             />
           </div>
-          <div className="mx-auto max-w-full px-6">
-            <div className="footer-block grid grid-cols-10 py-8">
+          <div className="mx-14 max-w-full px-6">
+            <div className="footer-block grid grid-cols-10 py-8 rounded-tt border-t border-slate-700">
               <div className="logo">
                 <a href="#">
                   <img src={logo} width={50} height={50} alt="" />
@@ -109,9 +109,14 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+            <div className="pb-8">
+              <div className="text-xs text-slate-500">
+                <p>Torre Parque Cristal - Ala Oeste - Caracas - Venezuela</p>
+              </div>
+              <div className="social"></div>
+            </div>
           </div>
         </div>
-        <div></div>
       </footer>
     </>
   );
